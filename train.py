@@ -1,4 +1,8 @@
 from __future__ import print_function
+
+# custom pip paths
+import sys
+sys.path.insert(0,"/p/home/jusers/schmidt9/juwels/PROJECT_testufz/Custompip/lib/python3.6/site-packages")
 import os,time,cv2, sys, math
 import tensorflow as tf
 import tensorflow.contrib.slim as slim
